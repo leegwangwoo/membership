@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>- 체 육 관 이 용 약 관 -
+
+
+제1조(목적) 이 약관은 체력단련장과 체력단련장이 제공하는 시설 및 서비스를 이용하는 자(이하 ‘이용자’라 합니다) 사이에 체결된 계약에 따른 권리의무에 관한 사항을 정함을 목적으로 합니다.
+
+제2조(적용대상) 이 약관은 체력단련장을 이용하는 모든 이용자에게 적용합니다.
+
+제3조(이용계약 및 약관 교부)  
+① 이용자는 체력단련장(이하 ‘사업자’라 합니다)이 정한 절차에 따라 이용 신청을 하고 이용료를 납부하여야 합니다.
+② 사업자는 체력단련장 이용신청을 승낙할 경우 이용자에게 이용증과 약식 약관(이용증 이면에 첨부)을 교부하여야 합니다.
+③ 사업자는 제2항의 약식약관의 교부에 관계없이 이용자가 요구할 경우 약관의 사본을 교부하여야 합니다.
+
+제4조(게시설명의무)  
+① 사업자는 이용자가 용이하게 볼 수 있는 장소에 다음 사항을 게시하여야 합니다.
+1.시간별 프로그램 내용 및 정원
+2.지도강사의 인적사항
+3.강습의 변경
+4.이용료
+5.약관내용
+6.소지품 보관시 유의 사항 등
+7.이용자 안전수칙 등 기타 필요사항
+② 사업자는 이용자가 체력단련장 시설 및 기구를 안전하게 이용할 수 있도록 이용방법 및 주의사항 설명 등 선량한 관리자로서 의무를 다하여야 합니다.
+
+제5조(이용증 제시)  
+① 이용자는 사업자가 이용증 제시를 요구할 경우 이용증을 제시하여야 합니다.
+② 이용자는 이용증을 분실하였을 경우 지체없이사업자에게 그 사실을 통지 하고 재교부를 받아야 합니다.
+
+제6조(이용신청 철회)  
+① 이용자가 체력단련장 이용을 할부계약으로 신청한 경우 신청일로부터 7일 이내 서면으로, 방문사원 권유로 신청한 경우에는 신청일로부터 14일 이내에 이용신청을 철회할 수 있습니다.
+단 신청일에 계약서(또는 약관)을 교부받지 못한 경우 이용 개시일을 기준으로 합니다.
+② 제1항의 경우 사업자는 ‘할부거래에관한법률’ 제6조, ‘방문판매등에관한법률’ 제9조에 따른 원상회복의 의무를 집니다.
+
+제7조(이용 연기)  
+① 이용자는 체력단련장 이용 전 또는 이용 중 연기가 필요한 경우 사업자와 협의하여 이용시기를 연기할 수 있습니다.
+  
+② 제1항의 경우에 이용자는 연기신청서를 사업자에게 제출하여야 합니다.
+③ 제2항의 신청을 받은 사업자는 특별한 사정이 없는 한 승낙하여야 합니다.
+
+제8조(계약의 해제해지)     (이하 생략)
+</value>
+  </data>
+</root>

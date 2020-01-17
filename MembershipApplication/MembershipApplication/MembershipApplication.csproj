@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66FD1239-FDBD-46A6-8EFD-CD40C3F353BC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MembershipApplication</RootNamespace>
+    <AssemblyName>MembershipApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LockerData.cs" />
+    <Compile Include="PositionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PositionInfo.Designer.cs">
+      <DependentUpon>PositionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mapdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mapdata.Designer.cs">
+      <DependentUpon>Mapdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GearsPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GearsPurchase.Designer.cs" />
+    <Compile Include="GearsRental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GearsRental.Designer.cs" />
+    <Compile Include="MembershipApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MembershipApplication.Designer.cs">
+      <DependentUpon>MembershipApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MembershipInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MembershipInformation.Designer.cs">
+      <DependentUpon>MembershipInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineMembership.Designer.cs">
+      <DependentUpon>OnlineMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramDataClass.cs" />
+    <Compile Include="ProgramInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramInformation.Designer.cs">
+      <DependentUpon>ProgramInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchMembership.Designer.cs">
+      <DependentUpon>SearchMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchMyMembership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchMyMembership.Designer.cs">
+      <DependentUpon>SearchMyMembership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainingGears.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainingGears.Designer.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PositionInfo.resx">
+      <DependentUpon>PositionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mapdata.resx">
+      <DependentUpon>Mapdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GearsPurchase.resx" />
+    <EmbeddedResource Include="GearsRental.resx" />
+    <EmbeddedResource Include="MembershipApplication.resx">
+      <DependentUpon>MembershipApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MembershipInformation.resx">
+      <DependentUpon>MembershipInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnlineMembership.resx">
+      <DependentUpon>OnlineMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramInformation.resx">
+      <DependentUpon>ProgramInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchMembership.resx">
+      <DependentUpon>SearchMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchMyMembership.resx">
+      <DependentUpon>SearchMyMembership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainingGears.resx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
